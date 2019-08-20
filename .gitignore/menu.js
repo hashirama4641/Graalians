@@ -14,7 +14,10 @@ client.on("ready", () => {
 client.on("message", (message) => {
 
     if(message.content === prefix +"help") {
-        message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming")
+        message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <autres")
+    }
+    if(message.content === prefix +"autres") {
+        message.channel.send("Voici les mots au quel je peux répondre: oi, mathis, paper à quitter graal, des droons, graalians est raciste, hashi.")
     }
     if(message.content === "oi") {
         message.channel.send("FDP ! Je détéste les brésiliens !")

@@ -5,6 +5,12 @@ client.login(process.env.TOKEN)
 
 var prefix = ("<");
 
+client.on("ready", () => {
+    console.log("Connecté !")
+    client.user.setStatus("online")
+    client.user.setActivity("Graal Online Classic| <help", {type: 0})
+})
+
 client.on("message", (message) => {
 
     if(message.content === prefix +"help") {

@@ -14,10 +14,10 @@ client.on("ready", () => {
 client.on("message", (message) => {
 
     if(message.content === prefix +"help") {
-        message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <autres")
+        message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
-    if(message.content === prefix +"autres") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper à quitter graal, des droons, graalians est raciste, hashi, tu le connais?.")
+    if(message.content === prefix +"motsclés") {
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, hashi, tu le connais?.")
     }
     if(message.content === "tu le connais?") {
         message.channel.send("Oui, je le connais.")
@@ -28,7 +28,7 @@ client.on("message", (message) => {
     if(message.content === "mathis") {
         message.channel.send("Il se noie. Ne l'aide surtout pas !")
     }
-    if(message.content === "paper à quitter graal") {
+    if(message.content === "paper a quitté graal") {
         message.channel.send("Cheh ! Un cancer en moins et dix de retrouvé !")
     }
     if(message.content === "graalians est raciste") {

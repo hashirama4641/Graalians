@@ -17,9 +17,9 @@ client.on("message", (message) => {
         message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
     if(message.content === prefix +"motsclés") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, hashi, tu le connais?.")
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, hashi, tu le connais ?.")
     }
-    if(message.content === "tu le connais?") {
+    if(message.content === "tu le connais ?") {
         message.channel.send("Oui, je le connais.")
     }
     if(message.content === "oi") {

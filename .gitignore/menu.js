@@ -23,7 +23,7 @@ client.on("message", (message) => {
         message.channel.send("Oui, je le connais.")
     }
     if(message.content === "oi") {
-        message.channel.send("FDP ! Je détéste les brésiliens !")
+        message.channel.send("FDP ! Je déteste les brésiliens !")
     }
     if(message.content === "mathis") {
         message.channel.send("Il se noie. Ne l'aide surtout pas !")

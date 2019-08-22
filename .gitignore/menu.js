@@ -44,7 +44,7 @@ client.on("message", (message) => {
         message.channel.send("L'arabe homophobe.")
     }
     if(message.content === "salty") {
-        message.channel.send("is so salty !")
+        message.channel.send("IS SO SALTY !")
     }
     if(message.content === prefix +"pâque") {
         message.channel.send("Pâque se déroule chaque année, tu dois collecter 100 oeufs, il existe un oeuf 101 mais très rare")

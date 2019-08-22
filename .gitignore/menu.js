@@ -17,7 +17,7 @@ client.on("message", (message) => {
         message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
     if(message.content === prefix +"motsclés") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, hashi, tu le connais ?.")
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, hashi, tu le connais ?, rayan")
     }
     if(message.content === "tu le connais ?") {
         message.channel.send("Oui, je le connais.")
@@ -39,6 +39,9 @@ client.on("message", (message) => {
     }
     if(message.content === "hashi") {
         message.channel.send("parmentier")
+    }
+    if(message.content === "rayan") {
+        message.channel.send("L'arabe homophobe.")
     }
     if(message.content === prefix +"pâque") {
         message.channel.send("Pâque se déroule chaque année, tu dois collecter 100 oeufs, il existe un oeuf 101 mais très rare")
@@ -71,7 +74,7 @@ client.on("message", (message) => {
         message.channel.send("Pâque se déroule chaque année, tu dois collecter 100 oeufs, il existe un oeuf 101 mais il est très rare. Pour collecter au plus vite les oeufs et être dans le top 50, tu dois faire des échanges d'oeuf entre joueur. La récompense des oeufs est souvent une monture et celle du 101 est souvent un hat ou accessoire. Va dans le canal #??-event-?? pour savoir les emplacements des oeufs. L'évènement dure globalement 1 mois.")
     }
     if(message.content === prefix +"graaloween") {
-        message.channel.send("Cet évènement est l'une des plus cool sur graal, il faut collecter des bonbons pour pouvoir s'acheter dans le shop dans la grotte de Dead Wood des items, montures, transformation, chapeaux etc... Il y a une quête à faire en collectant 8 objets dans un labyrinthe sombre avec une belle récompense. Les Towers rapportent le plus de bonbons et il y a aussi une réduction de -50% sur les uploads vers le 25 Septembre avant le début de Graaloween. L'évènement dure globalement 1 mois.")
+        message.channel.send("Cet évènement est l'une des plus cool sur graal, il faut collecter des bonbons pour pouvoir s'acheté dans le shop de la grotte de Dead Wood des items, montures, transformation, chapeaux etc... Il y a une quête à faire en collectant 8 objets dans un labyrinthe sombre avec une belle récompense. Les Towers rapportent le plus de bonbons, les PNJs sortent des maisons en demandant des bonbons, pour ça tu dois t'équipé du sac à bonbon et d'un masque de graaloween. Il y a aussi une réduction de -50% sur les uploads vers le 25 Septembre avant le début de Graaloween. L'évènement dure globalement 1 mois.")
     }
     if(message.content === prefix +"blackfriday") {
         message.channel.send("Black Friday débute le vers la fin du mois de Novembre avec une réduction de -25% sur les uploads et sur tous les montures, objets graal. L'évènement dure globalement 2 semaines.")

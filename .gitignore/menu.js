@@ -17,7 +17,7 @@ client.on("message", (message) => {
         message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
     if(message.content === prefix +"motsclés") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, yuütsu, miolo")
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, yuütsu, miolo, zed, shadows")
     }
     if(message.content === "tu le connais ?") {
         message.channel.send("Oui, je le connais.")
@@ -63,6 +63,12 @@ client.on("message", (message) => {
     }
     if(message.content === "miolo") {
         message.channel.send("Il adore les Nékos.")
+    }
+    if(message.content === "zed") {
+        message.channel.send("Le SEGPA ultime.")
+    }
+    if(message.content === "shadows") {
+        message.channel.send("Mathis 1.0.")
     }
     if(message.content === prefix +"pâque") {
         message.channel.send("Pâque se déroule chaque année, tu dois collecter 100 oeufs, il existe un oeuf 101 mais très rare")

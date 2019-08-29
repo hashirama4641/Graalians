@@ -50,7 +50,7 @@ client.on("message", (message) => {
         message.channel.send("kon")
     }
     if(message.content === "chaos") {
-        message.channel.send("this")
+        message.channel.send("machaosthis")
     }
     if(message.content === "alexia") {
         message.channel.send("https://www.youtube.com/watch?v=P0z9KgCHuNE")

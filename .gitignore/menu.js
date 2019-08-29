@@ -35,7 +35,7 @@ client.on("message", (message) => {
         message.channel.send("C'est même pas vrai sale humain !")
     }
     if(message.content === "le bot et insolan") {
-        message.channel.send("Même un primaire sait mieux écrire que toi 'le bot est insolent'. Noob !")
+        message.channel.send("Même un primaire sait mieux écrire que toi 'le bot est insolent'. Gros Noob !")
     }
     if(message.content === "des droons") {
         message.channel.send("C'est des monstres.")

@@ -17,7 +17,7 @@ client.on("message", (message) => {
         message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
     if(message.content === prefix +"motsclés") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, yuütsu, miolo, zed, shadows")
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuütsu, nonolp, whis, kudo, saradomin, zed, shadows")
     }
     if(message.content === "tu le connais ?") {
         message.channel.send("Oui, je le connais.")
@@ -50,7 +50,7 @@ client.on("message", (message) => {
         message.channel.send("kon")
     }
     if(message.content === "chaos") {
-        message.channel.send("machaosthis")
+        message.channel.send("machaosthis crom crom crom.")
     }
     if(message.content === "alexia") {
         message.channel.send("https://www.youtube.com/watch?v=P0z9KgCHuNE")
@@ -58,17 +58,29 @@ client.on("message", (message) => {
     if(message.content === "kito") {
         message.channel.send("Il adore les Hentaïs.")
     }
+    if(message.content === "miolo") {
+        message.channel.send("Il adore les Nékos.")
+    }
     if(message.content === "yuütsu") {
         message.channel.send("Le mélancolique.")
     }
-    if(message.content === "miolo") {
-        message.channel.send("Il adore les Nékos.")
+    if(message.content === "nonolp") {
+        message.channel.send("Le futur meilleur épéiste au monde.")
+    }
+    if(message.content === "whis") {
+        message.channel.send("Il est dans le PNL game.")
+    }
+    if(message.content === "kudo") {
+        message.channel.send("Bravo ! T'as bien écris son pseudo, tu veux une médaille ?")
+    }
+    if(message.content === "saradomin") {
+        message.channel.send("Pose lui une question en échange de 100 000 000 de berry.")
     }
     if(message.content === "zed") {
         message.channel.send("Le SEGPA ultime.")
     }
     if(message.content === "shadows") {
-        message.channel.send("Mathis 1.0.")
+        message.channel.send("Le Mathis 1.0.")
     }
     if(message.content === prefix +"pâque") {
         message.channel.send("Pâque se déroule chaque année, tu dois collecter 100 oeufs, il existe un oeuf 101 mais très rare")

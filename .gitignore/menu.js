@@ -17,7 +17,7 @@ client.on("message", (message) => {
         message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
     if(message.content === prefix +"motsclés") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, le bot es insolan, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuutsu, nonolp, whis, Mr.Kudo, saradomin, zed, shadow")
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, le bot es insolan, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuutsu, nonolp, whis, Kudo, saradomin, zed, shadow")
     }
     if(message.content === "tu le connais ?") {
         message.channel.send("Oui, je le connais.")
@@ -73,7 +73,7 @@ client.on("message", (message) => {
     if(message.content === "whis") {
         message.channel.send("Il est dans le PNL game.")
     }
-    if(message.content === "Mr.Kudo") {
+    if(message.content === "Kudo") {
         message.channel.send("Bravo ! T'as bien écris son pseudo, tu veux une médaille ?")
     }
     if(message.content === "saradomin") {

@@ -17,7 +17,7 @@ client.on("message", (message) => {
         message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
     if(message.content === prefix +"motsclés") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuütsu, nonolp, whis, kudo, saradomin, zed, shadows")
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, le bot es insolan, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuütsu, nonolp, whis, kudo, saradomin, zed, shadows")
     }
     if(message.content === "tu le connais ?") {
         message.channel.send("Oui, je le connais.")
@@ -33,6 +33,9 @@ client.on("message", (message) => {
     }
     if(message.content === "graalians est raciste") {
         message.channel.send("C'est même pas vrai sale humain !")
+    }
+    if(message.content === "le bot et insolan") {
+        message.channel.send("Même un primaire sait mieux écrire que toi (le bot est insolent). Noob !")
     }
     if(message.content === "des droons") {
         message.channel.send("C'est des monstres.")

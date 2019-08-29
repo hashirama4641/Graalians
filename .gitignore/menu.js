@@ -17,7 +17,7 @@ client.on("message", (message) => {
         message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
     if(message.content === prefix +"motsclés") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, le bot es insolan, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuütsu, nonolp, whis, kudo, saradomin, zed, shadows")
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, graalians est raciste, le bot es insolan, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuutsu, nonolp, whis, Mr.Kudo, saradomin, zed, shadow")
     }
     if(message.content === "tu le connais ?") {
         message.channel.send("Oui, je le connais.")
@@ -35,7 +35,7 @@ client.on("message", (message) => {
         message.channel.send("C'est même pas vrai sale humain !")
     }
     if(message.content === "le bot et insolan") {
-        message.channel.send("Même un primaire sait mieux écrire que toi (le bot est insolent). Noob !")
+        message.channel.send("Même un primaire sait mieux écrire que toi 'le bot est insolent'. Noob !")
     }
     if(message.content === "des droons") {
         message.channel.send("C'est des monstres.")
@@ -64,7 +64,7 @@ client.on("message", (message) => {
     if(message.content === "miolo") {
         message.channel.send("Il adore les Nékos.")
     }
-    if(message.content === "yuütsu") {
+    if(message.content === "yuutsu") {
         message.channel.send("Le mélancolique.")
     }
     if(message.content === "nonolp") {
@@ -73,7 +73,7 @@ client.on("message", (message) => {
     if(message.content === "whis") {
         message.channel.send("Il est dans le PNL game.")
     }
-    if(message.content === "kudo") {
+    if(message.content === "Mr.Kudo") {
         message.channel.send("Bravo ! T'as bien écris son pseudo, tu veux une médaille ?")
     }
     if(message.content === "saradomin") {
@@ -82,7 +82,7 @@ client.on("message", (message) => {
     if(message.content === "zed") {
         message.channel.send("Le SEGPA ultime.")
     }
-    if(message.content === "shadows") {
+    if(message.content === "shadow") {
         message.channel.send("Le Mathis 1.0.")
     }
     if(message.content === prefix +"pâque") {

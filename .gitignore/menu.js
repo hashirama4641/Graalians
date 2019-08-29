@@ -56,7 +56,7 @@ client.on("message", (message) => {
         message.channel.send("machaosthis crom crom crom.")
     }
     if(message.content === "alexia") {
-        message.channel.send("https://www.youtube.com/watch?v=P0z9KgCHuNE")
+        message.channel.send("Do you want check his ID ?")
     }
     if(message.content === "kito") {
         message.channel.send("Il adore les Hentaïs.")

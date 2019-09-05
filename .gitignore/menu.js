@@ -47,7 +47,7 @@ client.on("message", (message) => {
         message.channel.send("parmentier")
     }
     if(message.content === "rayan") {
-        message.channel.send("L'arabe homophobe.")
+        message.channel.send("Le futur footballeur.")
     }
     if(message.content === "salty") {
         message.channel.send("IS SO SALTY !")

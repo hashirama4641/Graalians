@@ -17,7 +17,7 @@ client.on("message", (message) => {
         message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
     if(message.content === prefix +"motsclés") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, joyeux anniversaire, graalians est raciste, le bot et insolan, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuutsu, nonolp, whis, afenso, Kudo, saradomin, zed, shadow, camille")
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, joyeux anniversaire, graalians est raciste, le bot et insolan, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuutsu, nonolp, whis, kingsleys, afenso, Kudo, saradomin, zed, shadow, camille")
     }
     if(message.content === "tu le connais ?") {
         message.channel.send("Oui, je le connais.")
@@ -76,8 +76,11 @@ client.on("message", (message) => {
     if(message.content === "whis") {
         message.channel.send("Il est dans le PNL game.")
     }
+    if(message.content === "kingsleys") {
+        message.channel.send("Évitez ce pervers :unamused:")
+    }
     if(message.content === "afenso") {
-        message.channel.send("https://cdn.discordapp.com/attachments/477611929410732072/616732450751512671/Afenso_fanart.png")
+        message.channel.send("https://cdn.discordapp.com/attachments/463004908497534986/619482141646127104/Afenso_fanart.png")
     }
     if(message.content === "Kudo") {
         message.channel.send("Bravo ! T'as bien écris son pseudo, tu veux une médaille ?")

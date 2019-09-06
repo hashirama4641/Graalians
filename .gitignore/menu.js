@@ -17,7 +17,7 @@ client.on("message", (message) => {
         message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
     if(message.content === prefix +"motsclés") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, joyeux anniversaire, graalians est raciste, le bot et insolan, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuutsu, nonolp, whis, kingsleys, afenso, Kudo, saradomin, zed, shadow, camille")
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, joyeux anniversaire, graalians est raciste, le bot et insolan, je prends la porte => :door:, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuutsu, nonolp, whis, kingsleys, afenso, Kudo, saradomin, zed, shadow, camille")
     }
     if(message.content === "tu le connais ?") {
         message.channel.send("Oui, je le connais.")
@@ -41,7 +41,10 @@ client.on("message", (message) => {
         message.channel.send("C'est des monstres.")
     }
     if(message.content === "joyeux anniversaire") {
-        message.channel.send("Je te souhaite tous mes voeux. 'Je souhaite que tu crève >:)'.")
+        message.channel.send("Je te souhaite tous mes voeux. 'Je souhaite que tu crève :smiling_imp:'")
+    }
+    if(message.content === "je prends la porte => :door:") {
+        message.channel.send("https://cdn.discordapp.com/attachments/463004908497534986/619484465349132288/Khan_Meme.gif")
     }
     if(message.content === "hashi") {
         message.channel.send("parmentier")

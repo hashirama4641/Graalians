@@ -80,7 +80,7 @@ client.on("message", (message) => {
         message.channel.send("Il est dans le PNL game.")
     }
     if(message.content === "kingsleys") {
-        message.channel.send("Évitez ce pervers :unamused:")
+        message.channel.send("Évite ce pervers :unamused:")
     }
     if(message.content === "afenso") {
         message.channel.send("https://cdn.discordapp.com/attachments/463004908497534986/619482141646127104/Afenso_fanart.png")

@@ -41,7 +41,7 @@ client.on("message", (message) => {
         message.channel.send("C'est des monstres.")
     }
     if(message.content === "joyeux anniversaire") {
-        message.channel.send("Je te souhaite tous mes voeux. 'Je souhaite que tu crève :smiling_imp:'")
+        message.channel.send("Je te souhaite tous mes voeux. 'Je souhaite que tu crèves :smiling_imp:'")
     }
     if(message.content === "je prends la porte") {
         message.channel.send("https://cdn.discordapp.com/attachments/463004908497534986/619484465349132288/Khan_Meme.gif")
@@ -62,7 +62,10 @@ client.on("message", (message) => {
         message.channel.send("machaosthis crom crom crom.")
     }
     if(message.content === "alexia") {
-        message.channel.send("Do you want check his ID ?")
+        message.channel.send("Do you want check his ID ? 'Réponds: Nah! Fuck it.'")
+    }
+    if(message.content === "Nah! Fuck it.") {
+        message.channel.send("https://cdn.discordapp.com/attachments/463004908497534986/619489759475138560/FBI_OPEN_UP_.gif")
     }
     if(message.content === "kito") {
         message.channel.send("Il adore les Hentaïs.")

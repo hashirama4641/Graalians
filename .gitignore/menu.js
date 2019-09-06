@@ -62,9 +62,9 @@ client.on("message", (message) => {
         message.channel.send("machaosthis crom crom crom.")
     }
     if(message.content === "alexia") {
-        message.channel.send("Do you want check his ID ? 'Réponds: Nah! Fuck it.'")
+        message.channel.send("Do you want check his ID ? 'Réponds: Nah, fuck it !'")
     }
-    if(message.content === "Nah! Fuck it.") {
+    if(message.content === "Nah, fuck it !") {
         message.channel.send("https://cdn.discordapp.com/attachments/463004908497534986/619489759475138560/FBI_OPEN_UP_.gif")
     }
     if(message.content === "kito") {

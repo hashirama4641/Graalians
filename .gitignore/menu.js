@@ -17,7 +17,7 @@ client.on("message", (message) => {
         message.channel.send("Que veux-tu savoir? Choisis: <quêtes, <évènements, <farming, <motsclés")
     }
     if(message.content === prefix +"motsclés") {
-        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, joyeux anniversaire, graalians est raciste, le bot et insolan, je prends la porte, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuutsu, nonolp, whis, kingsleys, afenso, Kudo, saradomin, zed, shadow, camille")
+        message.channel.send("Voici les mots auxquels je peux répondre: oi, mathis, paper a quitté graal, des droons, joyeux anniversaire, graalians est raciste, le bot et insolan, je prends la porte, hashi, tu le connais ?, rayan, salty, renji, chaos ,alexia, kito, miolo, yuutsu, nonolp, whis, kingsleys, afenso, Kudo, macaron, saradomin, zed, shadow, camille")
     }
     if(message.content === "tu le connais ?") {
         message.channel.send("Oui, je le connais.")
@@ -90,6 +90,9 @@ client.on("message", (message) => {
     }
     if(message.content === "Kudo") {
         message.channel.send("Bravo ! T'as bien écris son pseudo, tu veux une médaille ?")
+    }
+    if(message.content === "macaron") {
+        message.channel.send("https://cdn.discordapp.com/attachments/463004908497534986/622471287670833222/macaron.png")
     }
     if(message.content === "saradomin") {
         message.channel.send("Pose lui une question en échange de 100 000 000 de berry.")
